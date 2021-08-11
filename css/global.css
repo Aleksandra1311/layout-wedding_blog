@@ -1,0 +1,38 @@
+html, body {
+    font-family: Gilroy, sans-serif;
+    background-color: #F1F1F2;
+    min-height: 100vh; /*тоже самое, что и 100% видимости viewport*/
+}
+.container {
+    width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    font-size: 18px;
+    line-height: 1.22;
+    color: #F7941E;
+    text-transform: uppercase; /*все буквы заглавные*/
+    padding: 14px 24px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+}
+.button-filled {
+    background-color: #F7941E;
+    color: white;
+}
+
+
+
+.text {
+    font-size: 20px;
+    line-height: 1.4;
+}
+.title {
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+.align-center {
+    text-align: center;
+}

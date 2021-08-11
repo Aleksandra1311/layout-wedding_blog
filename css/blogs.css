@@ -1,0 +1,61 @@
+.container h2 {
+    margin-bottom: 23px;
+}
+.container > p {
+    margin-bottom: 71px;
+}
+.container p::after {
+    content: " “ ";
+}
+.container p::before {
+    content: " ” ";
+}
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #231F20;
+    margin-bottom: 40px;
+}
+.banner-section {
+    width: 492px;
+    margin-left: 100px; 
+    align-items: center;
+}
+.banner-section h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #FFFFFF;
+
+}
+.banner-section h2 {
+    font-size: 48px;
+    line-height: 1.21;
+    color: #FFFFFF;
+    padding-top: 27px;
+    padding-bottom: 60px;
+}
+.banner-section a {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
+.blogs-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.card {
+    width: 570px;
+    padding: 48px;
+}
+.card h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.4;
+    padding-bottom: 16px;
+}
+.card p {
+    font-size: 18px;
+    line-height: 1.4;
+    padding-bottom: 16px;
+}

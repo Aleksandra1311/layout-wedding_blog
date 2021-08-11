@@ -1,0 +1,44 @@
+.communication {
+    background-color:#F7941E;
+    margin-bottom: 88px;
+}
+.communication h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #000000;
+
+}
+.communication p {
+    font-size: 32px;
+    line-height: 1.4;
+    color: #000000;
+}
+.communication-section {
+    display: flex;
+    justify-content: space-around;
+}
+.question {
+    margin-left: 235px;
+    margin-top: 81px;
+    margin-bottom: 69px;
+    display: flex;
+    flex-direction: column;
+}
+.button-section {
+    margin-top: 96px;
+}
+.button-find {
+    font-size: 18px;
+    line-height: 1.22;
+    border: 1px solid #231F20;
+    background-color: #231F20;
+    border-radius: 5px;
+    color: white;
+    margin-right: 16px;
+    
+}
+.button-how {
+    border: 1px solid black;
+    color: black;
+}
